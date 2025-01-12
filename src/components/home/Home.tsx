@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import Image from "next/image";
+// import Image from "next/image";
 import * as image from "../../../public/image"
 
 export default function Home() {
@@ -74,13 +74,13 @@ export default function Home() {
               </p>
           </div>
           <div className="w-full md:w-1/2 max-w-2xl mx-auto">
-            <Image src={image.veiculos_logo} alt="" />
+            <img src={image.veiculos_logo} alt="veiculos_logo" />
           </div>
         </section>
 
         <section className="mb-10 flex justify-between gap-4 items-center flex-wrap text-center bg-gray-100 md:text-left" id="services">
           <div className="w-full md:w-1/2 max-w-2xl mx-auto">
-            <Image src={image.veiculos_image} alt="" />
+            <img src={image.veiculos_image} alt="veiculos_imagem" />
           </div>
           <div className="w-full md:w-1/2 max-w-lg mx-auto">
             <h2 className="text-blue-800 text-xl font-semibold">Por que escolher a APVS?</h2>
@@ -111,7 +111,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center my-5 items-center">
-          <Image className="max-w-10" src={image.icon_tel} alt="contato" />
+          <img className="max-w-10" src={image.icon_tel} alt="contato" />
 
             <p className="ml-5">+55 (21) 99788-9428</p>
           </div>

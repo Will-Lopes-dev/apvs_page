@@ -5,7 +5,7 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
 //   /* config options here */
-  // output: 'export', // Configura exportação estática
+  output: 'export', // Configura exportação estática
   // images: {
   //   unoptimized: true, // Desativa otimização de imagens (necessária para exportação)
   // },
