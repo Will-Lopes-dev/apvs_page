@@ -67,13 +67,13 @@ export default function Menu() {
                     </a>
                 </li>
                 <li>
-                    <a href="#cotacao" className="hover:text-blue-300 transition-all">
-                    Faça uma Cotação
+                    <a href="#contato" className="hover:text-blue-300 transition-all">
+                    Contato
                     </a>
                 </li>
                 <li>
-                    <a href="#contato" className="hover:text-blue-300 transition-all">
-                    Contato
+                    <a href="#cotacao" className="hover:text-blue-300 transition-all">
+                    Faça uma Cotação
                     </a>
                 </li>
             </ul>
@@ -121,18 +121,18 @@ export default function Menu() {
             Serviços
           </a>
           <a
-            href="#cotacao"
-            className="hover:text-blue-300 text-xl transition-all"
-            onClick={() => setIsOpen(false)}
-          >
-            Faça uma Cotação
-          </a>
-          <a
             href="#contato"
             className="hover:text-blue-300 text-xl transition-all"
             onClick={() => setIsOpen(false)}
           >
             Contato
+          </a>
+          <a
+            href="#cotacao"
+            className="hover:text-blue-300 text-xl transition-all"
+            onClick={() => setIsOpen(false)}
+          >
+            Faça uma Cotação
           </a>
         </div>
       </div>
