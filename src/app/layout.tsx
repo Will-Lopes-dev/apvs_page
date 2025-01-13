@@ -19,10 +19,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "APVS com Willian Lopes",
+  title: "APVS Brasil",
   description: "Proteção veicular com segurança e confiança.",
   icons: {
     icon: '/image/favicon_io/favicon.ico', // Caminho correto
+  },
+  robots: "index, follow",
+  openGraph: {
+    title: "APVS Brasil",
+    description: "Proteção veicular com segurança e confiança.",
+    url: "https://www.apvsbrasil.com.br",
+    images: [
+      {
+        url: "/image/apvs-logomarca.png",
+        width: 400,
+        height: 200,
+        alt: "APVS Logomarca",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "APVS Brasil",
+    description: "Proteção veicular com segurança e confiança.",
+    images: ["/public/image/apvs-logomarca.png"],
   },
 };
 
