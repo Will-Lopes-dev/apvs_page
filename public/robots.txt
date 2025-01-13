@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.apvsbrasil.com.br
+
+# Sitemaps
+Sitemap: https://www.apvsbrasil.com.br/sitemap.xml

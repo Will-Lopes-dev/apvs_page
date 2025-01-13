@@ -58,7 +58,7 @@ export default function Home() {
       <main className="">
         <section className="mb-10">
           <span className="bg-white/75 text-center py-4 text-black" >
-              <h1 className="text-2xl font-bold">Bem-vindo à APVS com Willian Lopes</h1>
+              <h1 className="text-2xl font-bold">Bem-vindo à APVS</h1>
               <p className="text-lg px-2 mt-2">A solução para proteção veicular que você merece.</p>
           </span>
         </section>
